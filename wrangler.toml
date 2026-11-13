@@ -1,0 +1,12 @@
+name = "family-day"
+main = "src/worker.js"
+compatibility_date = "2025-10-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# Create the KV namespace once (see README), then paste its id here.
+[[kv_namespaces]]
+binding = "ROUTINE"
+id = "PASTE_YOUR_KV_ID_HERE"
